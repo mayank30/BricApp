@@ -72,13 +72,19 @@
 			<div class="row">
                 <div class="col-md-4 header-content">
                     <div id = "mobileMe" class="header-slider animation" data-animation="animation-fade-in-down">
-                        <div><img src="images/screen1.jpg" alt="Image 1" /></div>
+                        <ul id="slider1">
+                            <li><img border="1" src="images/screen1.jpg" /></li>
+                            <li><img border="1" src="images/screen2.jpg" /></li>
+                            <li><img border="1" src="images/screen5.jpg" /></li>
+                            <li><img border="1" src="images/screen6.jpg" /></li>
+                        </ul>
                     </div>
 
                 </div>
 
                 <div class="col-md-8">
-					<img class="logo" src="images/logo_nav.png" alt="Bric App" height="120" width="250" />
+					<div id="logoHeader">
+                        <img class="logo" src="images/logo_nav.png" alt="Bric App" height="120" width="250" />
 					<h1 class="slogan">The Best way to exchange<br>your business cards.</h1>
                     <a class="download-btn-alt ios-btn" href="https://geo.itunes.apple.com/in/app/bric-business-card-scanner/id934712155?mt=8&uo=6">
                         <div class="btn-slide"></div>
@@ -89,12 +95,18 @@
                         <div class="btn-slide"></div>
                         <div class="btn-content"><i class="icon icon-arrow-down"></i>More Features..<b>Get Started</b></div>
                     </a>
+                    </div>
 				</div>
 
 			</div>
 		</div>
 		<div id="slides" data-stellar-ratio="0.4">
-			<div class="slides-container" > <img src="images/1.jpg" alt=""> <img src="images/2.jpg" alt=""> <img src="images/3.jpg" alt=""><img src="images/4.jpg" alt=""> </div>
+			<div class="slides-container" >
+                <img src="images/1.jpg" alt="">
+                <img src="images/2.jpg" alt="">
+                <img src="images/3.jpg" alt="">
+                <img src="images/4.jpg" alt="">
+            </div>
 		</div>
 	</header>
 	<!-- INTRO END --> 
@@ -270,14 +282,14 @@
 		<div class="container-fluid">
 			<h2>Screenshots</h2>
 			<div id="screenshots-slider" class="owl-carousel">
-                 <a class="item" href="images/screen4.jpg" title="App Screen 4"><img src="images/screen4.jpg" alt="screen1" width="250" height="444"/></a>
-                <a class="item" href="images/screen5.jpg" title="App Screen 5"><img src="images/screen5.jpg" alt="screen1" width="250" height="444"/></a>
-                <a class="item" href="images/screen6.jpg" title="App Screen 6"><img src="images/screen6.jpg" alt="screen1" width="250" height="444"/></a>
-                <a class="item" href="images/screen7.jpg" title="App Screen 7"><img src="images/screen7.jpg" alt="screen1" width="250" height="444"/></a>
-                <a class="item" href="images/screen8.jpg" title="App Screen 8"><img src="images/screen8.jpg" alt="screen1" width="250" height="444"/></a>
-                <a class="item" href="images/screen1.jpg" title="App Screen 1"><img src="images/screen1.jpg" alt="screen1" width="250" height="444" /></a>
-                <a class="item" href="images/screen2.jpg" title="App Screen 2"><img src="images/screen2.jpg" alt="screen1" width="250" height="444"/></a>
-                <a class="item" href="images/screen3.jpg" title="App Screen 3"><img src="images/screen3.jpg" alt="screen1" width="250" height="444"/></a>
+                 <a class="item" href="images/screen4.jpg" title="App Screen 4"><img src="images/screen4.jpg" alt="screen1"/></a>
+                <a class="item" href="images/screen5.jpg" title="App Screen 5"><img src="images/screen5.jpg" alt="screen1" /></a>
+                <a class="item" href="images/screen6.jpg" title="App Screen 6"><img src="images/screen6.jpg" alt="screen1"/></a>
+                <a class="item" href="images/screen7.jpg" title="App Screen 7"><img src="images/screen7.jpg" alt="screen1" /></a>
+                <a class="item" href="images/screen8.jpg" title="App Screen 8"><img src="images/screen8.jpg" alt="screen1"/></a>
+                <a class="item" href="images/screen1.jpg" title="App Screen 1"><img src="images/screen1.jpg" alt="screen1"  /></a>
+                <a class="item" href="images/screen2.jpg" title="App Screen 2"><img src="images/screen2.jpg" alt="screen1" /></a>
+                <a class="item" href="images/screen3.jpg" title="App Screen 3"><img src="images/screen3.jpg" alt="screen1" /></a>
             </div>
 		</div>
         <div class="block-bg"></div>
@@ -404,6 +416,7 @@
 <script src="scripts/placeholders.jquery.min.js"></script>
 <script src="scripts/jquery.magnific-popup.min.js"></script>
 <script src="scripts/jquery.stellar.min.js"></script>
+<script src="scripts/jquery.cycle.all.js"></script>
 <script src="scripts/custom.js"></script> 
 
 <!--[if lte IE 9]>
