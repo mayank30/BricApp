@@ -607,7 +607,7 @@ h4 { font-size: 18px; }
 	height: 6px;
 	width:2px;
 	background: #00aeff;
-	border-radius: 0 2px 20x 0;
+	border-radius: 0 2px 20px 0;
 }
 
 #preloader .battery .load-line {
@@ -1493,7 +1493,7 @@ aside.blog-sidebar .tag_cloud h4{border:none;}
 	-webkit-transform: translateZ(0);}
 }
 
-.intro-block #slides img { opacity: 0.25; width: 100%; height: 10px;}
+.intro-block #slides img { opacity: 0.25; width: 10%; height: 10%;}
 
 .intro-block .logo {
 	display: inline-block;
@@ -2531,10 +2531,5 @@ footer { padding: 80px 0; }
 }
 #logoHeader
 {
-    margin-top: -100px;
-}
-
-#slider1 img
-{
-    border: 1px solid #c2c2c2;
+    margin-top: -70px;
 }
